@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 async function dbconnect() {
   await mongoose.connect(
-    "mongodb+srv://vy80032:mkOZYwGiuY6hr4gC@cluster0.pcel5eg.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://'.....'C@cluster0.pcel5eg.mongodb.net/?retryWrites=true&w=majority"
   );
   console.log("db connected");
 
